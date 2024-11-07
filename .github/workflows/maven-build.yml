@@ -62,4 +62,4 @@ jobs:
       # Push Docker image to Docker registry
       - name: Push Docker image to registry
         run: |
-          docker push ${{ secrets.DOCKER_REGISTRY }}/ecommerce-multivendor-backend:latest
+          docker push ${{ secrets.DOCKER_REGISTRY }}/ecommerce-multivendor-backend
